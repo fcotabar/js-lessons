@@ -3,5 +3,6 @@
   "-W117": false,
   "-W097": false,
   "undef": true,
-  "unused": true
+  "unused": true,
+  "-W144": false
 }
