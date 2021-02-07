@@ -19,9 +19,9 @@ francisco.getBirthYeaer();
 
 console.log(Person.prototype);
 
-console.log(francisco.__proto__);
+// console.log(francisco.__proto__);
 
-console.log(francisco.__proto__.__proto__);
+// console.log(francisco.__proto__.__proto__);
 
 // Challenge 1
 const Car = function (make, speed) {
@@ -78,7 +78,7 @@ class PersonClass {
         return now.getFullYear() - this.age;
     }
 
-    set setName(name) { }
+    // set setName(name) { }
 }
 
 const lore = new PersonClass('Lorena', 1978);
